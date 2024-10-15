@@ -1,25 +1,39 @@
-import logo from './logo.svg';
+import Menu from './components/menu';
 import './App.css';
+import Home from './components/home';
+import AboutMe from './components/about_me';
+import Skills from './components/skills';
+import Projects from './components/projects';
+import Form from './components/form';
+import FooterApp from './components/footer';
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+  return <>
+      <header className="header">
+        <Menu/>
       </header>
-    </div>
-  );
+      <main>
+        <div className='container'>
+          <section id="accueil" className="HomeContainer">
+            <Home/>
+          </section>
+          <section id="a-propos" className="AboutContainer">
+            <AboutMe/>
+          </section>
+        </div>
+        <section className="SkillsContainer">
+          <Skills/>
+        </section>
+        <section className='ProjectContainer' id="projets">
+          <Projects/>
+        </section>
+        <section id="contact" className="FormContainer">
+          <Form/>
+        </section>
+      </main>
+      <FooterApp/>
+    </>;
 }
 
 export default App;
