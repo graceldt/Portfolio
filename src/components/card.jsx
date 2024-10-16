@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import CardDetails from "./card_details";
 import Tag from "./tag";
-import GithubLink from "./github_link";
 
 
-const Card = ({ title, image, description, tags=[] }) => {
+
+const Card = ({ title, image, description, tags=[], link }) => {
     
     const [showDetails, setShowDetails] = useState(false);
 
@@ -24,7 +24,7 @@ const Card = ({ title, image, description, tags=[] }) => {
                 />
                 {
                     showDetails 
-                    && <CardDetails name='Projet de formation' description={description}>
+                    && <CardDetails name='Projet de formation' description={description} link={link}>
                         <div className="tagContainer">
                             {
                                 tags.map(tag => (
