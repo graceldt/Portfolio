@@ -32,7 +32,7 @@ nav li {
 nav a {
   text-decoration: none;
   color: #fff;
-  font-size: 1.2vw;
+  font-size: 1rem;
   font-weight: 500;
 }
 
@@ -57,7 +57,7 @@ nav a {
 
 .name{
   font-weight: 100;
-  font-size: 3.5vw;
+  font-size: 3vw;
   font-style:italic;
 }
 
@@ -65,7 +65,7 @@ nav a {
   font-family: "Anton", sans-serif;
   font-weight: 400;
   font-style:italic;
-  font-size: 5vw;
+  font-size: 4vw;
 }
 
 .picture{
@@ -76,6 +76,7 @@ nav a {
 } 
 .picture img {
   border-radius: 50%;
+  max-width: 100%;
 }
 
 .AboutContainer{
@@ -100,13 +101,13 @@ nav a {
   font-family: "Anton", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 2.5vw;
+  font-size: 2.2rem;
   text-align: start;
 }
 
 .presentation p {
   font-weight: 100;
-  font-size: 1.6vw;
+  font-size: 1.5rem;
   padding-bottom: 20px;
   text-align: justify;
 }
@@ -130,7 +131,7 @@ nav a {
   font-family: "Anton", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 2.8vw;
+  font-size: 2rem;
   text-align: center;
   padding-top: 30px;
   padding-bottom: 20px;
@@ -151,7 +152,7 @@ nav a {
 .fa-brands{
   color: rgb(72, 71, 71);
   cursor: pointer;
-  font-size: 4vw;
+  font-size: 4.5rem;
 }
 .SkillsContainer{
   background: #0D0907 ;
@@ -199,7 +200,7 @@ nav a {
   text-decoration: none;
   color: #fff;
   padding-bottom: 5%;
-  font-size: 1.8vw;
+  font-size: 1.2rem;
 }
 
 .details{
@@ -213,8 +214,9 @@ nav a {
   align-items: center;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.8);
+  border: 2px solid #fff;
   border-radius: 15px;
-  font-size: 1.2vw;
+  font-size: 1.2rem;
 }
 
 
@@ -224,7 +226,7 @@ nav a {
   border: 1px solid #fff;
   background: #fff;
   font-weight: bold;
-  font-size: 1vw;
+  font-size: 1rem;
   cursor: pointer;
 }
 
@@ -233,7 +235,7 @@ nav a {
 }
 
 .links a {
-  font-size: 1.2vw;
+  font-size: 1.2rem;
   color:#fff ;
   text-decoration: underline;
   
@@ -288,11 +290,72 @@ input {
 }
 
 .fa-github{
-  font-size: 2vw;
+  font-size: 1.2rem;
   color: #000;
 }
 .footer-text {
   padding-top: 1%;
   font-weight: bold;
 }
+/****** Media queries ***********/
 
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .header{
+    justify-content: center;
+    padding: 2% 0% 2% 0%;
+  }
+
+  nav li {
+    padding-right: 20px;
+  }
+
+  .name {
+    font-size: 1.2rem;
+  }
+  .job {
+    font-size: 2rem;
+}
+  .picture {
+    width: 65%;
+    height: 250px;
+    padding-left: 15% ;
+}
+.title_presentation {
+  text-align: center;
+  padding-bottom: 5%;
+}
+  .me-presentation{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fa-brands {
+    font-size: 2.5rem;
+  }
+  .card {
+    width: 300px;
+    height: 200px;
+  }
+  
+  .card img {
+    height: 200px;
+    width: 100%;
+  
+  }
+
+  .details{
+    height: 200px;
+    width: 100%;
+    font-size: 1rem;
+  }
+  .tag{
+    font-size: .6rem;
+  }
+  
+  .links a {
+    font-size: 1rem;
+    
+  }
+}
