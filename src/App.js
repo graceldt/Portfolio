@@ -16,7 +16,7 @@ function App() {
 
 
 const listenScrollEvent = () => {
-    window.scrollY > 500
+    window.scrollY > 900
       ? setHeaderColor(second_color)
       : setHeaderColor(main_color)
   }

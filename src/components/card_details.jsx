@@ -6,7 +6,7 @@ function CardDetails({ name, description, children, link }){
             <p>{description}</p>
             {children}
             <div className="links">
-            <a href={link}>Lien Github</a>
+            <a href={link} target="_blank">Lien Github</a>
             </div>
         </div>
 

@@ -152,12 +152,8 @@ nav a {
   padding-bottom: 30px;
 }
 
-.skills :hover {
-  color: #fff;
-}
-
 .fa-brands{
-  color: rgb(72, 71, 71);
+  color: rgb(255, 255, 255, 0.7);
   cursor: pointer;
   font-size: 4.5rem;
 }
@@ -300,7 +296,7 @@ input {
 }
 
 .fa-github{
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   color: #000;
 }
 .footer-text {
