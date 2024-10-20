@@ -44,19 +44,12 @@ nav a {
 
 
 .home-content{
-  box-sizing: border-box;
-  display:flex;
-  justify-content: space-around;
-  flex-direction: row;
-  align-items: center;
-  padding: 4% 8% 2% 8%;
-  font-weight: 100;
   text-align: center;
+  font-weight: 100;
   font-style:italic;
   color: #000;
-  transition: 2s ease;
-  transform: scaleX(1.3);
 }
+
 
 
 .name{
@@ -77,6 +70,7 @@ nav a {
   height: 450px;
   width: 100%;
   background-size:cover;
+  justify-content: center;
 } 
 
 
@@ -87,21 +81,20 @@ nav a {
 
 .AboutContainer{
   display: flex;
-  justify-content: center;
+  align-items: center;
   color: #000;
-  padding: 0% 7% 7% 7%;
+  
 
 }
 
 .me-presentation{
   display: flex;
   flex-direction: row;
+  align-items: center;
   width: 100%;
+  padding-bottom: 5%;
 }
 
-.presentation {
-  padding-top: 9.5%;
-}
 
 .title_presentation{
   font-family: "Anton", sans-serif;
@@ -111,10 +104,13 @@ nav a {
   text-align: start;
 }
 
+.presentation{
+  padding: 2% 6% 2% 6%;
+}
+
 .presentation p {
   font-weight: 100;
   font-size: 1.5rem;
-  padding-bottom: 20px;
   text-align: justify;
 }
 
@@ -124,6 +120,7 @@ nav a {
   border-radius: 10px;
   background: rgba(0, 0, 0, .7);
   border: none;
+  margin-top: 2%;
   
 }
 
@@ -247,10 +244,12 @@ nav a {
   
 }
 
-.tagContainer{
+.tagContainer {
   display: flex;
-  padding-top:5% ;
-  gap : 10%;
+  padding-top: 5%;
+  width: 100%;
+  justify-content: center;
+  gap: 3%;
 }
 
 .FormContainer{
@@ -306,6 +305,11 @@ input {
 /****** Media queries ***********/
 
 /* Medium devices (tablets, less/equal than 1024px) */
+@media (max-width: 1024px) {
+  .picture {
+    height: 300px;
+}
+}
 
 
 /* Small devices (phones, less than 768px) */
@@ -317,18 +321,23 @@ input {
 
   nav li {
     padding-right: 20px;
+    
   }
+  
+  nav a {
+    font-size: 0.9rem;
+  }
+
 
   .name {
     font-size: 1.2rem;
   }
   .job {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
   .picture {
     width: 65%;
     height: 250px;
-    padding-left: 15% ;
 }
 .title_presentation {
   text-align: center;
@@ -337,10 +346,15 @@ input {
   .me-presentation{
     display: flex;
     flex-direction: column;
+    align-items: center;
+  }
+
+  .presentation p {
+    font-size: 1rem;
   }
 
   .fa-brands {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   .card {
     width: 300px;

@@ -16,7 +16,7 @@ function App() {
 
 
 const listenScrollEvent = () => {
-    window.scrollY > 900
+    window.scrollY > (window.scrollY + document.getElementById('skill').getBoundingClientRect().top)
       ? setHeaderColor(second_color)
       : setHeaderColor(main_color)
   }
@@ -38,6 +38,7 @@ useEffect(() => {
             <AboutMe/>
           </section>
         </div>
+        <div id='skill' style={{background: headerColor, height:"70px"}}></div>
         <section className="SkillsContainer">
           <Skills/>
         </section>
