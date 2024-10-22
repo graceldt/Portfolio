@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.1c9b5cf5.css",
-    "main.js": "/Portfolio/static/js/main.39e0c219.js",
+    "main.css": "/Portfolio/static/css/main.12208ce8.css",
+    "main.js": "/Portfolio/static/js/main.0d96adf9.js",
     "static/js/453.50ba56e4.chunk.js": "/Portfolio/static/js/453.50ba56e4.chunk.js",
+    "static/media/cv_grace_lendet.pdf": "/Portfolio/static/media/cv_grace_lendet.934a170ecc8d6ccabe29.pdf",
     "static/media/portrait.webp": "/Portfolio/static/media/portrait.202ee42b070a189364db.webp",
     "static/media/nina_carducci.webp": "/Portfolio/static/media/nina_carducci.b894a2311dc2e4e9d9bc.webp",
     "static/media/sophie_bluel.webp": "/Portfolio/static/media/sophie_bluel.7504c37856d5f6b2ceca.webp",
@@ -11,12 +12,12 @@
     "static/media/ohmyfood.webp": "/Portfolio/static/media/ohmyfood.ab9eb0b02ae67f487f06.webp",
     "static/media/argentBank.webp": "/Portfolio/static/media/argentBank.ce3735c618e2dfe0ba97.webp",
     "index.html": "/Portfolio/index.html",
-    "main.1c9b5cf5.css.map": "/Portfolio/static/css/main.1c9b5cf5.css.map",
-    "main.39e0c219.js.map": "/Portfolio/static/js/main.39e0c219.js.map",
+    "main.12208ce8.css.map": "/Portfolio/static/css/main.12208ce8.css.map",
+    "main.0d96adf9.js.map": "/Portfolio/static/js/main.0d96adf9.js.map",
     "453.50ba56e4.chunk.js.map": "/Portfolio/static/js/453.50ba56e4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c9b5cf5.css",
-    "static/js/main.39e0c219.js"
+    "static/css/main.12208ce8.css",
+    "static/js/main.0d96adf9.js"
   ]
 }
