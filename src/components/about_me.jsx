@@ -1,4 +1,5 @@
-import Grace from "../images/portrait.webp";
+import Grace from "../images/portrait.webp"
+import csv_pdf from "../document/cv_grace_lendet.pdf"
 
 
 function AboutMe (){
@@ -13,7 +14,7 @@ function AboutMe (){
                     <br/>La première étape de ce nouveau défi a été la formation d'Intégrateur Web d'Openclassroom.
                     Je suis à présent, à la recherche de nouvelles opportunités pour approfondir mes connaissances et renforcer mes acquis.
                 </p>
-                <button className="download_button"><a href="#" target="_blank">Télécharger mon CV</a></button>
+                <button className="download_button"><a href={csv_pdf} target="_blank">Télécharger mon CV</a></button>
             </div>
         </div>
     );
